@@ -1,0 +1,37 @@
+/*light green = #a2d39c*/
+/*dark green = #82a97d*/
+/*light purple = #8d6d9f*/
+/*dark purple = #440e62*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #440e62;
+}  
+.textmenu{
+    font-family: 'Poppins', sans-serif;
+    color: #440e62;
+    background-color: #a2d39c;
+}
+a{
+text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin: 0 2px;
+}
+nav{
+    width: 600px;
+    background-color: #a2d39c
+}
+ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+.home{
+    display: inline-block;
+}
+.home:hover{
+    background: url("images/nav_home_act.gif") no-repeat;
+}
